@@ -33,7 +33,7 @@ async def on_ready():
     else:
         print("User not found!")
 
-
+    await bot.close() #Logs the bot out and kills the script once message is sent
 
 bot.run('YOUR BOTS SECRET/KEY HERE')
 
